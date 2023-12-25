@@ -25,6 +25,17 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #d3d3d3;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: #d3d3d3;
+        }
+
         td.num {
             text-align: right;
         }
@@ -38,11 +49,12 @@
     <h1>Uso de Tabelas grandes</h1>
 
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
-                <th>% da pop. total</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th scope="col">% da pop. total</th>
             </tr>
         </thead>
 
@@ -187,7 +199,7 @@
         
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>203.062.512</strong></td>
                 <td class="porcento"><strong>100%</strong></td>
             </tr>
