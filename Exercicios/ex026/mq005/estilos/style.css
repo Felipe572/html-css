@@ -7,7 +7,8 @@
     --cor3: #1267e6;
     --cor4: #2535e6;
 
-    --font-destaque: 'Sixtyfour', sans-serif;;
+    --font-destaque: 'Sixtyfour', sans-serif;
+    --font-texto: 'Poppins', sans-serif;
 }
 
 * {
@@ -41,6 +42,7 @@ menu > ul {
 }
 
 menu > ul > li > a {
+    font-family: var(--font-texto);
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -65,9 +67,11 @@ main {
 
 article > h2,h4 {
     padding-bottom: 20px;
+    font-family: var(--font-texto);
 } 
 
 article > p {
+    font-family: var(--font-texto);
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 25px;
