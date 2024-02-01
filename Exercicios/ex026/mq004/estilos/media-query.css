@@ -24,10 +24,21 @@ Grandes telas: acima de 1200px
         border: 2px solid black
     }
 
+    main::after {
+        content: 'Essa impressão fpi feita através do site www.cursoemvideo.com';
+        text-decoration: overline;
+    }
+
     main h1 {
         text-shadow: none;
         color: black;
     }
+
+    img#phome { display: none; }
+    img#table { display: none; }
+    img#print { display: block; }
+    img#pc { display: none; }
+    img#tv { display: none; }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* Tablet */

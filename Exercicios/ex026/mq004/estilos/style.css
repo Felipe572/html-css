@@ -22,7 +22,7 @@ body {
 
 main {
     background-color: rgb(255, 255, 255, 0.842);
-    width: 90vw;;
+    width: 400px;
     margin: auto;
     margin-top: 20px;
     padding: 10px;
@@ -41,7 +41,7 @@ img {
     margin: auto;
 }
 
-img#phome { display: none; }
+img#phome { display: block; }
 img#table { display: none; }
 img#print { display: none; }
 img#pc { display: none; }
