@@ -57,12 +57,13 @@ menu > ul {
 menu > ul > li > a {
     font-family: var(--font-texto);
     display: block;
-    padding: 10px;
+    padding: 6px;
     text-decoration: none;
     text-align: center;
     background-color: var(--cor2);
     color: #ffffff;
     border-top: 2px solid var(--cor1);
+    border-radius: 8px;
 }
 
 menu > ul > li > a:hover {
