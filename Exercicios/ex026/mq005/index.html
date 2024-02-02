@@ -16,10 +16,10 @@
 <body>
     <header> 
         <h1>PassaRaiva.com</h1>
-        <span id="burguer" class="material-symbols-outlined">
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
             reorder
         </span>
-        <menu>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Notícias</a></li>
@@ -53,5 +53,15 @@
             <p>Fonte de pesquisa <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries" target="_blank">MDN Web Docs</a></p>
         </article>
     </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
