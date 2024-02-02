@@ -30,7 +30,6 @@ header > h1 {
     padding: 10px;
     text-align: center;
     font-family: var(--font-destaque);
-    font-size: 3em;
 }
 
 span#burguer {
@@ -77,6 +76,20 @@ main {
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: var(--cor4);
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor0);
 }
 
 article > h2,h4 {
